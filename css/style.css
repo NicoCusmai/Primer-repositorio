@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital@1&display=swap');
+
+ /*reset */
+*{
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+    align-content: center;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+h1,h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+  color:#8D48EA;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: grey;
+}
+
+body{
+  background-image: url(../images/fondohojas.jpg);
+  background-attachment: fixed;
+}
+
+nav img{
+  width: 9%;
+} 
+
+nav{
+	background-color: #8D48EA
+  
+}	
+  nav ul{
+    list-style:none;
+  }
+    nav ul li a{
+      font-size: 2.2rem;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      color: ;
+    }
+
+.container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
